@@ -7,4 +7,6 @@
     <string name="search_images">Search Images</string>
     <string name="trending_flower_wallpapers_backgrounds_happy_love">Trending:flower,wallpapers,backgrounds,happy,love</string>
     <string name="search">search</string>
+    <string name="image_s">image_s</string>
+    <string name="download">download</string>
 </resources>

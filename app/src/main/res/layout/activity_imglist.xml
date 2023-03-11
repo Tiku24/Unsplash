@@ -32,7 +32,8 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.5"
             app:layout_constraintVertical_chainStyle="packed"
-            app:srcCompat="@drawable/photo1" />
+            app:srcCompat="@drawable/photo1"
+            android:contentDescription="@string/image_s" />
 
         <ImageView
             android:id="@+id/imageView4"
@@ -46,7 +47,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView3"
             app:layout_constraintVertical_bias="0.5"
-            app:srcCompat="@drawable/photo4" />
+            app:srcCompat="@drawable/photo4"
+            android:contentDescription="@string/image_s" />
 
         <ImageView
             android:id="@+id/imageView6"
@@ -60,7 +62,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView4"
             app:layout_constraintVertical_bias="0.5"
-            app:srcCompat="@drawable/photo" />
+            app:srcCompat="@drawable/photo"
+            android:contentDescription="@string/image_s" />
 
         <ImageView
             android:id="@+id/imageView7"
@@ -74,7 +77,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView5"
             app:layout_constraintVertical_bias="0.5"
-            app:srcCompat="@drawable/unsplash" />
+            app:srcCompat="@drawable/unsplash"
+            android:contentDescription="@string/image_s" />
 
         <ImageView
             android:id="@+id/imageView5"
@@ -88,14 +92,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView6"
             app:layout_constraintVertical_bias="0.5"
-            app:srcCompat="@drawable/photo5" />
+            app:srcCompat="@drawable/photo5"
+            android:contentDescription="@string/image_s" />
 
         <Button
             android:id="@+id/Download"
             android:layout_width="70dp"
             android:layout_height="49dp"
             android:background="@drawable/arrow"
-            android:contentDescription="download"
+            android:contentDescription="@string/download"
             android:textAlignment="center"
             android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="@+id/imageView3"
