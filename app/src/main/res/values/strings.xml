@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Unsplash</string>
+    <string name="background_image">background_image</string>
+    <string name="unsplash">Unsplash</string>
+    <string name="the_internet_s_source_for_visuals">The internet\'s source for visuals.</string>
+    <string name="powered_by_creators_everywhere">Powered by creators everywhere.</string>
+    <string name="search_images">Search Images</string>
+    <string name="trending_flower_wallpapers_backgrounds_happy_love">Trending:flower,wallpapers,backgrounds,happy,love</string>
+    <string name="search">search</string>
 </resources>

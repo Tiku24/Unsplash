@@ -14,7 +14,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/image2" />
+        app:srcCompat="@drawable/image2"
+        android:contentDescription="@string/background_image" />
 
     <TextView
         android:id="@+id/textView5"
@@ -22,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="50dp"
-        android:text="Unsplash"
+        android:text="@string/unsplash"
         android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -35,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed-light"
-        android:text="The internet's source for visuals."
+        android:text="@string/the_internet_s_source_for_visuals"
         android:textColor="@color/white"
         android:textSize="14sp"
         android:textStyle="italic"
@@ -47,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed-light"
-        android:text="Powered by creators everywhere."
+        android:text="@string/powered_by_creators_everywhere"
         android:textColor="@color/white"
         android:textSize="14sp"
         android:textStyle="italic"
@@ -60,10 +61,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="95dp"
-        android:background="@color/white"
+        android:background="@drawable/search_engine"
         android:ems="10"
         android:fontFamily="sans-serif-light"
-        android:hint="Search Images"
+        android:hint="@string/search_images"
         android:inputType="textPersonName"
         android:paddingStart="8dp"
         android:paddingTop="7dp"
@@ -72,5 +73,20 @@
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:ignore="RtlSymmetry"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/search_btn"
+        android:text="@string/search"
+        android:textColor="@color/white"
+        android:textSize="9sp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName2"
+        tools:ignore="SmallSp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
